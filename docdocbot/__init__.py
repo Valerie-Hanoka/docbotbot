@@ -6,3 +6,4 @@ Author: Valérie Hanoka
 
 """
 
+name = 'docbotbot'
