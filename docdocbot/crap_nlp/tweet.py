@@ -25,6 +25,4 @@ class Tweet(object):
         self.segmented_text = segment_tweet(self.full_text)
         self.named_entities = get_ners(self.full_text)
         self.content_words = get_contentwords(self.segmented_text)
-        #toto = [s for s in self.content_words]
-        #print(toto)
         #import ipdb; ipdb.set_trace()
